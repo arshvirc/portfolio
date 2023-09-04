@@ -1,8 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 
-import picture from "../assets/home.jpg"
-import car from "../assets/redbull.avif"
+import car from "../assets/img/redbull.avif"
 
 const Hero = () => {
   return (
