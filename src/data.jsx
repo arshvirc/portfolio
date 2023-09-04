@@ -1,10 +1,8 @@
 /* eslint-disable no-unused-vars */
 //  icons
 import {
-    FiYoutube,
-    FiInstagram,
     FiGithub,
-    FiDribbble,
+    FiLinkedin,
     FiLayout,
     FiSettings,
     FiPenTool,
@@ -58,12 +56,12 @@ import {
       href: 'portfolio',
     },
     {
-      name: 'services',
-      href: 'services',
+      name: 'academia',
+      href: 'academia',
     },
     {
-      name: 'testimonials',
-      href: 'testimonials',
+      name: 'career',
+      href: 'career',
     },
     {
       name: 'contact',
@@ -71,25 +69,17 @@ import {
     },
   ];
   
-//   // social
-//   export const social = [
-//     {
-//       icon: <FiYoutube />,
-//       href: '',
-//     },
-//     {
-//       icon: <FiInstagram />,
-//       href: '',
-//     },
-//     {
-//       icon: <FiGithub />,
-//       href: '',
-//     },
-//     {
-//       icon: <FiDribbble />,
-//       href: '',
-//     },
-//   ];
+  // social
+  export const social = [
+    {
+      icon: <FiLinkedin />,
+      href: '',
+    },
+    {
+      icon: <FiGithub />,
+      href: '',
+    },
+  ];
   
 //   // companies
 //   export const brands = [
