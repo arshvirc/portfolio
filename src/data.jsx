@@ -37,14 +37,14 @@ import {
       name: 'portfolio',
       href: 'portfolio',
     },
-    {
-      name: 'academia',
-      href: 'academia',
-    },
-    {
-      name: 'career',
-      href: 'career',
-    },
+    // {
+    //   name: 'academia',
+    //   href: 'academia',
+    // },
+    // {
+    //   name: 'career',
+    //   href: 'career',
+    // },
     {
       name: 'contact',
       href: 'contact',
@@ -119,18 +119,18 @@ import {
     },
   ];
   
-//   // contact
-//   export const contact = [
-//     {
-//       icon: <FiMail />,
-//       title: 'Have a question?',
-//       subtitle: 'I am here to help you.',
-//       description: 'Email me at hello@youremail.com',
-//     },
-//     {
-//       icon: <FiMapPin />,
-//       title: 'Current Location',
-//       subtitle: 'Bucharest, Romania',
-//       description: 'Serving clients worldwide',
-//     },
-//   ];
+  // contact
+  export const contact = [
+    {
+      icon: <FiMail />,
+      title: 'Have a question?',
+      subtitle: 'I am here to help you.',
+      description: 'Email me at hello@youremail.com',
+    },
+    {
+      icon: <FiMapPin />,
+      title: 'Current Location',
+      subtitle: 'Bucharest, Romania',
+      description: 'Serving clients worldwide',
+    },
+  ];
