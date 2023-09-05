@@ -7,7 +7,7 @@ export default {
   theme: {
     fontFamily: {
       primary: 'Playfair Display',
-      body: 'Work Sans',
+      body: 'DM Sans',
     },
     container: {
       padding: {
@@ -25,19 +25,17 @@ export default {
       content: {
         about: 'url("/src/assets/img/outline-text/about.svg")',
         portfolio: 'url("/src/assets/img/outline-text/portfolio.svg")',
-        services: 'url("/src/assets/img/outline-text/services.svg")',
-        testimonials: 'url("/src/assets/img/outline-text/testimonials.svg")',
         contact: 'url("/src/assets/img/outline-text/contact.svg")',
       },
       colors: {
-        primary: '#050402',
-        secondary: '#1C1D24',
+        primary: '#000',
+        secondary: '#2a9d8f',
         tertiary: '#131419',
         accent: {
-          DEFAULT: '#ac6b34',
-          hover: '#925a2b',
+          DEFAULT: '#2a9d8f',
+          hover: '#2b9d8f',
         },
-        paragraph: '#878e99',
+        paragraph: '#e9c46a',
       },
     },
   },
