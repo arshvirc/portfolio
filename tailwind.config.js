@@ -6,14 +6,14 @@ export default {
   ],
   theme: {
     fontFamily: {
-      primary: 'Playfair Display',
+      primary: 'Lato',
       body: 'DM Sans',
     },
     container: {
-      padding: {
-        DEFAULT: '1rem',
-        lg: '3rem',
-      },
+      // padding: {
+      //   DEFAULT: '1rem',
+      //   lg: '3rem',
+      // },
     },
     screens: {
       sm: '640px',
@@ -22,20 +22,24 @@ export default {
       xl: '1280px',
     },
     extend: {
+      backgroundImage: {
+        'hero-pattern': "url('/src/assets/a.jpg')",
+        'footer-texture': "url('/src/assets/ball.gif')",
+      },
       content: {
         about: 'url("/src/assets/img/outline-text/about.svg")',
         portfolio: 'url("/src/assets/img/outline-text/portfolio.svg")',
         contact: 'url("/src/assets/img/outline-text/contact.svg")',
       },
       colors: {
-        primary: '#000',
-        secondary: '#2a9d8f',
-        tertiary: '#131419',
+        primary: '#E3202A',
+        secondary: '#AEC3B0',
+        tertiary: '#AEC3B0',
         accent: {
-          DEFAULT: '#2a9d8f',
-          hover: '#2b9d8f',
+          DEFAULT: '#AEC3B0',
+          hover: '#AEC3B0',
         },
-        paragraph: '#e9c46a',
+        paragraph: '#AEC3B0',
       },
     },
   },

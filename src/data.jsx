@@ -14,41 +14,39 @@ import {
   import car from "./assets/img/MyLogo.png"
   
 //   // skills images
-//   import SkillImg1 from './assets/img/skills/html5.png';
-//   import SkillImg2 from './assets/img/skills/css3.png';
-//   import SkillImg3 from './assets/img/skills/js.png';
-//   import SkillImg4 from './assets/img/skills/reactjs.png';
-//   import SkillImg5 from './assets/img/skills/nextjs.png';
-//   import SkillImg6 from './assets/img/skills/nodejs.png';
-//   import SkillImg7 from './assets/img/skills/git.png';
-//   import SkillImg8 from './assets/img/skills/figma.png';
+import HomeIcon from '@mui/icons-material/Home';
+import InfoIcon from '@mui/icons-material/Info';
+import FolderIcon from '@mui/icons-material/Folder';
+import WorkIcon from '@mui/icons-material/Work';
+import SchoolIcon from '@mui/icons-material/School';
   
   // navigation
   export const navigation = [
     {
-      name: 'home',
-      href: 'home',
+      name: 'Home',
+      href: 'Home',
+      icon: <HomeIcon className='text-[#AEC3B0]'/>
     },
     {
-      name: 'about',
-      href: 'about',
+      name: 'About',
+      href: 'About',
+      icon: <InfoIcon className='text-[#AEC3B0]'/>
     },
     {
-      name: 'portfolio',
-      href: 'portfolio',
+      name: 'Projects',
+      href: 'Projects',
+      icon: <FolderIcon className='text-[#AEC3B0]'/>
     },
-    // {
-    //   name: 'academia',
-    //   href: 'academia',
-    // },
-    // {
-    //   name: 'career',
-    //   href: 'career',
-    // },
     {
-      name: 'contact',
-      href: 'contact',
+      name: 'Experience',
+      href: 'Experience',
+      icon: <WorkIcon className='text-[#AEC3B0]'/>
     },
+    {
+      name: 'Academics',
+      href: 'Academics',
+      icon: <SchoolIcon className='text-[#AEC3B0]'/>
+    }
   ];
   
   // social
