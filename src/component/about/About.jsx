@@ -4,19 +4,15 @@ const About = () => {
   return (
     <div className='flex flex-col gap-4 p-8'>
       <p> 
-        From as long as I can recall, I always loved building things. Regardless of whether it was a Batman Lego
-        Set, a business plan for a start-up in a competition or a web app for school, I found the entire process fun.
+        For as long as I can remember, I have always had a strong interest in creating and contributing to the invention of something "cool" and "interesting". 
+        From building LEGO sets as a child, to coming up start-ups ideas for <a href='https://www.deca.org/'> DECA </a> in high school, I found the act of "building" to be something truly fascinating and fulfilling.
       </p>
       <p>
-        Now as a 3rd year Computer Science student at the University of Waterloo with four internships under 
-        my belt, the problems that I worked on have evolved to developing automation scripts and proof-of-concepts
-        for Surf, microservices for Roadpost Inc and working on NLP at Cardea Health. Likewise, my passion for
-        problem-solving has also increased.
+        Now entering my 4th year as an undergraduate Computer Science at the University of Waterloo with four internships under my belt, I have ended up trading in my LEGO blocks with algorithms and data structures and my LEGO figures with AWS and NLP models to build and contribute to the creation of something "cool" and "interesting".
       </p>
-      <p>
-        Now entering into my fourth year, I'm looking for an opportunity to apply my experience and skills on some new problems
-        and grow as a developer and person as well. So without further adieu, please check out the rest of my website.
-      </p>         
+      <p>  
+        Below, you will find a history of the various contribution I made during my internships and the projects that I have completed/am still working on. 
+      </p>
     </div>
   )
 }

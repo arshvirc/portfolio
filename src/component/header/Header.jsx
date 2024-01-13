@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className='
       lg:sticky lg:top-0 lg:flex lg:h-screen lg:w-[1/3] lg:flex-col lg:py-24 lg:justify-center 
-      text-center lg:text-left pt-8
+      text-center lg:text-left pt-8 
     '>
       <h1 className='font-semibold text-4xl'>ARSHVIR CHAUDHARY</h1>
       <h2 className='font-medium lg:mt-0 mt-8'>Software Developer X Cross Country Runner X Music Enthusiast X Binge-Watcher/Reader </h2>
