@@ -30,7 +30,7 @@ function SelectedListItem() {
                 <ListItemIcon>
                   {item.icon}
                 </ListItemIcon>
-                <ListItemText primary={item.name} />
+                <ListItemText primary={item.name} className='hidden md:block'/>
               </ListItemButton>
             )
           })}

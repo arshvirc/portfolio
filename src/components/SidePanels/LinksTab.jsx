@@ -1,25 +1,24 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import {Link } from 'react-scroll'
+import { Link } from 'react-scroll'
 import { social } from '../../data.jsx'
+import { Divider } from '@mui/material'
 
 const LinksTab = () => {
   return (
-    <div className='w-[90%] m-4 bg-[#124559] rounded-md p-4'>
-      Arshvir Chaudhary
-      <nav>
-        <ul className='flex flex-col space-x-8 capitalize text-[15px]'>
+    <div className='flex flex-row w-[90%] m-4 bg-[#124559] rounded-md p-4 justify-between'>
+      <p className='w-1/2'>Useful Links:</p>
+      <div className='flex flex-row w-1/2 justify-around'>
           {social.map((item, index) => {
             return (
-              <li className='text-white hover:text-accent cursor-pointer' key={index}>
+              <div className=' hover:text-white cursor-pointer' key={index}>
                 <Link to={item.href} activeClass='active' spy={true} smooth={true} duration={500} offset={-70} className='transition-all duration-300' > 
-                  {item.name} 
+                  {item.icon}
                 </Link>
-              </li>
+              </div>
             )
           })}
-        </ul>
-      </nav>
+      </div>
     </div>
   )
 }

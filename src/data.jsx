@@ -1,24 +1,15 @@
 /* eslint-disable no-unused-vars */
-//  icons
-import {
-    FiGithub,
-    FiLinkedin,
-    FiLayout,
-    FiSettings,
-    FiPenTool,
-    FiTag,
-    FiMail,
-    FiMapPin,
-  } from 'react-icons/fi';
 
-  import car from "./assets/img/MyLogo.png"
+import car from "./assets/img/MyLogo.png"
   
-//   // skills images
 import HomeIcon from '@mui/icons-material/Home';
 import InfoIcon from '@mui/icons-material/Info';
 import FolderIcon from '@mui/icons-material/Folder';
 import WorkIcon from '@mui/icons-material/Work';
 import SchoolIcon from '@mui/icons-material/School';
+
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
   
   // navigation
   export const navigation = [
@@ -27,11 +18,11 @@ import SchoolIcon from '@mui/icons-material/School';
       href: 'Home',
       icon: <HomeIcon className='text-[#AEC3B0]'/>
     },
-    {
-      name: 'About',
-      href: 'About',
-      icon: <InfoIcon className='text-[#AEC3B0]'/>
-    },
+    // {
+    //   name: 'About',
+    //   href: 'About',
+    //   icon: <InfoIcon className='text-[#AEC3B0]'/>
+    // },
     {
       name: 'Projects',
       href: 'Projects',
@@ -52,11 +43,13 @@ import SchoolIcon from '@mui/icons-material/School';
   // social
   export const social = [
     {
-      icon: <FiLinkedin />,
+      name: 'GitHub',
+      icon: <GitHubIcon />,
       href: '',
     },
     {
-      icon: <FiGithub />,
+      name: 'LinkedIn',
+      icon: <LinkedInIcon />,
       href: '',
     },
   ];
@@ -116,19 +109,19 @@ import SchoolIcon from '@mui/icons-material/School';
       name: 'branding',
     },
   ];
-  
-  // contact
-  export const contact = [
+
+  // interests
+  export const interests = [
     {
-      icon: <FiMail />,
-      title: 'Have a question?',
-      subtitle: 'I am here to help you.',
-      description: 'Email me at hello@youremail.com',
+      title: 'Favourite NHL Team',
+      info: 'Toronto Maple Leafs'
     },
     {
-      icon: <FiMapPin />,
-      title: 'Current Location',
-      subtitle: 'Bucharest, Romania',
-      description: 'Serving clients worldwide',
+      title: 'Favourite NFL Team',
+      info: 'Philadelphia Eagles'
+    },
+    {
+      title: 'Favourite F1 Driver',
+      info: 'Lando Norris'
     },
   ];

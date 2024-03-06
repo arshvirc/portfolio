@@ -32,14 +32,14 @@ export default {
         contact: 'url("/src/assets/img/outline-text/contact.svg")',
       },
       colors: {
-        primary: '#E3202A',
+        primary: '#01161E',
         secondary: '#AEC3B0',
         tertiary: '#AEC3B0',
         accent: {
-          DEFAULT: '#AEC3B0',
-          hover: '#AEC3B0',
+          DEFAULT: '#124559',
+          hover: '#598392',
         },
-        paragraph: '#AEC3B0',
+        paragraph: '#EFF6E0',
       },
     },
   },
