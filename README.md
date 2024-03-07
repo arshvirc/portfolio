@@ -1,2 +1,8 @@
-# Welcome
-The project is built using JavaScript with React and Tailwind CSS. It is a single page application that displays my greatest projects and some other information about myself. My github profile contains similar information which could make this entire website pointless. However, this portfolio website's main purpose is to provide myself with an opportunity to showcase the skills I have acquired and learn something new by doing. 
+# my-portfolio
+As the name suggests, this project is my portfolio website.
+
+## Inspiration
+I started this project because I wanted to curate a website that showcases my skills and expertise while interwining my personality and cool snippets that I think is funny and exciting to implement. I would like this project to be a one-stop destination to not only present my experience and portfolio of projects, but also give you a first-hand experience of my ability to create cool features just for the sake of learning and building something I deem cool. 
+
+## Technologies:
+The current version of my portfolio project utilizes JavaScript and React. 
