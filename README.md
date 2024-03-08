@@ -1,8 +1,8 @@
-# my-portfolio
-As the name suggests, this project is my portfolio website.
+# React + Vite
 
-## Inspiration
-I started this project because I wanted to curate a website that showcases my skills and expertise while interwining my personality and cool snippets that I think is funny and exciting to implement. I would like this project to be a one-stop destination to not only present my experience and portfolio of projects, but also give you a first-hand experience of my ability to create cool features just for the sake of learning and building something I deem cool. 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Technologies:
-The current version of my portfolio project utilizes JavaScript and React. 
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
