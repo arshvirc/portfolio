@@ -3,7 +3,7 @@ import { Container, Grid, Card, CardMedia, CardContent, CardActions, Typography,
 
 const projects = [
   {
-    title: 'Website Portfolio',
+    title: 'My Portfolio Website',
     image: '',
     desc: '',
     repo: '' ,

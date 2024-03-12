@@ -3,15 +3,17 @@ import React from 'react'
 const About = () => {
   return (
     <div className='flex flex-col gap-4 p-8'>
+      <p>
+        Hi! My name is Arshvir Chaudhary. I am a software developer from Toronto, Ontario, specializing in back-end, data engineering and cloud development.
+      </p>
       <p> 
-        For as long as I can remember, I have always had a strong interest in creating and contributing to the invention of something "cool" and "interesting". 
-        From building LEGO sets as a child, to coming up start-ups ideas for <a href='https://www.deca.org/'> DECA </a> in high school, I found the act of "building" to be something truly fascinating and fulfilling.
+        I am also a 4th year undergraduate student at the University of Waterloo, enrolled in the Honours Computer Science program with Co-op along with a specialization in AI. 
       </p>
       <p>
-        Now entering my 4th year as an undergraduate Computer Science at the University of Waterloo with four internships under my belt, I have ended up trading in my LEGO blocks with algorithms and data structures and my LEGO figures with AWS and NLP models to build and contribute to the creation of something "cool" and "interesting".
+        Outside of school and internships, I love to go on runs and play hockey or golf. On any given day, you'll either find me out on a run, watching a Leafs game or playing shinny at a local ice rink or at a golf course/simulator.
       </p>
-      <p>  
-        Below, you will find a history of the various contribution I made during my internships and the projects that I have completed/am still working on. 
+      <p>
+        I'm actively looking for internships for Summer 2025, Fall 2025 and also Winter 2025 where I can grow both as a person as well as a Software Developer. If you've got an opening and you like what you see, let's connect!
       </p>
     </div>
   )
