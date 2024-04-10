@@ -1,19 +1,22 @@
 import React from 'react'
-import { GitHub, Instagram, LinkedIn } from '@mui/icons-material'
+import Nav from '../nav/Nav'
+import Socials from '../socials/Socials'
 
 const Header = () => {
   return (
-    <header className='
-      lg:sticky lg:top-0 lg:flex lg:h-screen lg:w-[1/3] lg:flex-col lg:py-24 lg:justify-center 
-      text-center lg:text-left pt-8 
-    '>
-      <h1 className='font-semibold text-4xl'>ARSHVIR CHAUDHARY</h1>
-      <h2 className='font-medium lg:mt-0 mt-8'>Software Developer X Runner </h2>
-      <div className='mt-16 lg:mt-36 font-light'> "I like building cool ideas. The more thought-provoking, the better." </div>
-      <div className='sm:mt-12 sm:flex sm:flex-row sm:gap-4 sm:visible hidden'> 
-        <GitHub />
-        <LinkedIn />
-        {(new Date()).toDateString()}
+    <header className='lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24'>
+      <div>
+        <h1 className='text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl'>
+          <a href='/'>Arshvir Chaudhary</a>
+        </h1>
+        <h2 className='mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl'>
+          Software Developer
+        </h2>
+        <p className='mt-4 max-w-xs leading-normal'>
+          I like building cool ideas. The more complicated, the better I find them.
+        </p>
+        <Nav />
+        <Socials />
       </div>
     </header>
   )
