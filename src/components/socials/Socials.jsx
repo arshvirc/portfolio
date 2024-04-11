@@ -16,7 +16,7 @@ const Socials = () => {
           <LinkedIn sx={{ color: 'white' }}/>
         </a>
       </li>
-      <li className='mr-5 text-xs shrink-0'>
+      <li className='mr-5 text-md shrink-0'>
         <span className='block text-slate-200'>
         {(new Date()).toDateString().toString()}
         </span>

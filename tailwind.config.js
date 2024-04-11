@@ -7,8 +7,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#c54141',
-        secondary: '#3366FF'
+        primary: '#004d24',
+        secondary: '#',
+        tertiary: "#ffe556",
       },
       fontFamily: {
         sans: ['Helvetica', 'Arial', 'sans-serif'],
