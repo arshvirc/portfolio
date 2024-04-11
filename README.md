@@ -1,2 +1,8 @@
-# Welcome
-The project is built using JavaScript with React and Tailwind CSS. It is a single page application that displays my greatest projects and some other information about myself. My github profile contains similar information which could make this entire website pointless. However, this portfolio website's main purpose is to provide myself with an opportunity to showcase the skills I have acquired and learn something new by doing. 
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
