@@ -12,7 +12,7 @@ const nav = [
   },
   {
     link: "#projects",
-    title: "Projects (To Be Implemented Soon)"
+    title: "Projects"
   },
   // {
   //   link: "#academics",
