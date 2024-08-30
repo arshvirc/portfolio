@@ -2,7 +2,7 @@ import { ArrowDownwardOutlined } from "@mui/icons-material";
 
 const Header = () => {
 return (
-  <div className="relative min-h-screen bg-cover bg-center" style={{ backgroundImage: "url('background1.jpg')" }}>
+  <div className="relative min-h-screen bg-cover bg-center" style={{ backgroundImage: "url('/assets/images/background1.jpg')" }}>
     <div className="absolute inset-0 bg-gradient-to-b from-transparent to-slate-900"></div>
     <div className="absolute inset-0 bg-gradient-to-b from-transparent to-slate-900"></div>
     <div className="absolute inset-0 bg-gradient-to-b from-transparent to-slate-800">

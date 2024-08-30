@@ -13,7 +13,7 @@ const projects = [
     type: 'Personal Project',
     link: 'https://watstreet.netlify.app/',
     desc: 'Built a user-based web application that displays NBA sports data along with stat predictions and milestone predictions. Developed several classification and prediction models using Scikit-Learn with a success accuracy of 85% for the 23-24 season',
-    img: '/mercury.png',
+    img: '/assets/images/mercury.png',
     skills: ['React', 'Python', 'Flask', 'Scikit-learn']
   },
   {
@@ -21,7 +21,7 @@ const projects = [
     type: 'Design Team',
     link: 'https://watstreet.netlify.app/',
     desc: 'Built an internal tool to allow members to access and use PC to train models on a queue with live updates on the model’s performance and their position within the queue',
-    img: '/watstreet.png',
+    img: '/assets/images/watstreet.png',
     skills: ['Python', 'Firebase', 'Flask', 'SocketIO']
   },
 
