@@ -4,7 +4,7 @@ const Socials = () => {
   return (
     <ul className='ml-1 mt-8 flex items-center justify-start gap-5'>
       <li className='text-xs shrink-0'>
-        <a className='block hover:text-slate-200' href='https://github.com/arshvirc' target='_blank' rel='noreferrer noopener' aria-label='GitHub (opens in a new tab)' title='GitHub'>
+        <a className='block hover:text-slate-200' href='mailto:arshvirc@gmail.com' target='_blank' rel='noreferrer noopener' aria-label='GitHub (opens in a new tab)' title='GitHub'>
           <span className='sr-only'>GitHub</span>
           <h1 className='text-lg text-slate-200'>arshvirc@gmail.com</h1>
         </a>

@@ -19,9 +19,11 @@ return (
           </p>
         </div>
         <div className="absolute bottom-24 w-full flex justify-center">
+          <a href="#experience">
           <button className="flex text-white py-2 px-4 rounded-2xl items-center gap-4 border-slate-200 border">
             Continue <ArrowDownwardOutlined />
           </button>
+          </a>
         </div>
       </div>
     </div>
