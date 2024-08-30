@@ -1,25 +1,34 @@
-import React from 'react'
-import Nav from '../nav/Nav'
-import Socials from '../socials/Socials'
+import { ArrowDownwardOutlined } from "@mui/icons-material";
 
 const Header = () => {
-  return (
-    <header className='lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24'>
-      <div>
-        <h1 className='text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl'>
-          <a href='/'>Arshvir Chaudhary</a>
-        </h1>
-        <h2 className='mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl'>
-          Software Developer
-        </h2>
-        <p className='mt-4 max-w-xs leading-normal'>
-          I like building cool ideas. The more complicated, the better I find them.
-        </p>
-        <Nav />
-        <Socials />
+return (
+  <div className="relative min-h-screen bg-cover bg-center" style={{ backgroundImage: "url('/assets/images/background1.jpg')" }}>
+    <div className="absolute inset-0 bg-gradient-to-b from-transparent to-slate-900"></div>
+    <div className="absolute inset-0 bg-gradient-to-b from-transparent to-slate-900"></div>
+    <div className="absolute inset-0 bg-gradient-to-b from-transparent to-slate-800">
+      <div className="absolute inset-0 flex flex-col items-center justify-center">
+        <div className="flex flex-col text-slate-200 text-center gap-4">
+          <h1 className='text-4xl font-bold tracking-tight sm:text-5xl'>
+            <a href='/'>Arshvir Chaudhary</a>
+          </h1>
+          <h2 className='mtext-lg font-medium tracking-tight sm:text-xl'>
+            Software Developer
+          </h2>
+          <p className='leading-normal max-w-xs sm:max-w-md'>
+            I like building cool ideas. The more complicated, the better I find them.
+          </p>
+        </div>
+        <div className="absolute bottom-24 w-full flex justify-center">
+          <a href="#experience">
+          <button className="flex text-white py-2 px-4 rounded-2xl items-center gap-4 border-slate-200 border">
+            Continue <ArrowDownwardOutlined />
+          </button>
+          </a>
+        </div>
       </div>
-    </header>
-  )
-}
+    </div>
+  </div>
+);
+};
 
 export default Header

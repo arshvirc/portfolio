@@ -1,6 +1,3 @@
-import React from 'react'
-
-
 const nav = [
   {
     link: "#about",
@@ -14,20 +11,16 @@ const nav = [
     link: "#projects",
     title: "Projects"
   },
-  // {
-  //   link: "#academics",
-  //   title: "Academics (To Be Implemented Soon)"
-  // },
 ]
 
 const Nav = () => {
   return (
-    <nav className='nav hidden lg:block'>
-      <ul className='mt-16'>
+    <nav className='py-12'>
+      <ul className='flex gap-4 justify-end'>
         {nav.map((nav, id) => {
           return (
             <li key={id}> 
-              <a className='flex items-center py-3 lg:hover:pl-8 w-[1/2]' href={nav.link}>{nav.title}</a>
+              <a className='' href={nav.link}>{nav.title}</a>
             </li>
           )
         })}
