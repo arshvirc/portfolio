@@ -11,7 +11,7 @@ const projects = [
   {
     title: 'Mercury',
     type: 'Personal Project',
-    link: 'https://watstreet.netlify.app/',
+    link: null,
     desc: 'Built a user-based web application that displays NBA sports data along with stat predictions and milestone predictions. Developed several classification and prediction models using Scikit-Learn with a success accuracy of 85% for the 23-24 season',
     img: '/assets/images/mercury.png',
     skills: ['React', 'Python', 'Flask', 'Scikit-learn']
@@ -45,10 +45,15 @@ const Projects = () => {
             <div className='w-full md:w-3/5 text-white flex flex-col gap-2 justify-center'>
               <h5 className='font-light text-md text-emerald-400 uppercase'>{project.type}</h5>
               <h2 className='text-2xl font-semibold mb-2 flex gap-2'>{project.title}
-              {project.link && 
+              {project.link ? ( 
                 <a href={project.link} className='text-emerald-600'>
                   <LinkSharp />
                 </a>
+                ) : ( 
+                  <p className='text-emerald-600 text-[10px]'>
+                    Upon Request Only (Sorry!)
+                  </p>
+                )
               }
               </h2>
               <div>
